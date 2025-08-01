@@ -1,0 +1,6 @@
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+[1754019550.365719] 64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.047 ms
+[1754019550.568983] 64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.068 ms
+[1754019550.777006] 64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.088 ms
+[1754019550.984776] 64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.073 ms
+[1754019551.193045] 64 bytes from 127.0.0.1: icmp_seq=6 ttl=64 time=0.099 ms
