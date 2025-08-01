@@ -31,7 +31,7 @@ echo "Output will be saved to ${LOG_FILE}"
 # -i 0.2: Interval of 0.2 seconds between pings.
 # The 'timeout 3600' command will run the 'ping' command for exactly 3600 seconds (1 hour).
 # The entire output is redirected to the log file.
-timeout 3600 ping -D -n -i 0.2 "${HOSTNAME}" > "${LOG_FILE}"
+timeout 3600 ping -D -n -i 0.2 "${HOSTNAME}" | tee "${LOG_FILE}"
 
 # Check the exit status of the timeout command.
 if [ $? -eq 124 ]; then
